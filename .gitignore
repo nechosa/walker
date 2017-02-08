@@ -1,3 +1,7 @@
+#Cmake make files
+*.user
+*.user~
+
 # Compiled Object files
 *.slo
 *.lo
