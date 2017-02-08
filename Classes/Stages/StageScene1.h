@@ -13,7 +13,7 @@
 #include "../Extras/ParallaxNodeExtras.h"
 #include "StageScene.h"
 
-class StageScene1 : public cocos2d::Layer
+class StageScene : public cocos2d::Layer
 //class StageScene1 : public cocos2d::Scene
 //class StageScene1 : public StageScene
 {
@@ -25,11 +25,11 @@ public:
     // a selector callback
     void setHUDLayer(Layer *layer);
     void setBackgroundLayer(ParallaxScrollNode *layer);
-    static StageScene1 *createWithHUDAndBackGround(Layer *hudLayer, ParallaxScrollNode *backgroundLayer);
+    static StageScene *createWithHUDAndBackGround(Layer *hudLayer, ParallaxScrollNode *backgroundLayer);
     void menuCloseCallback(cocos2d::Ref* pSender);
 
     // implement the "static create()" method manually
-    CREATE_FUNC(StageScene1);
+    CREATE_FUNC(StageScene);
 private:
 
     ContactListener *contactListener;
