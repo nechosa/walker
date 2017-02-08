@@ -1,0 +1,3 @@
+cocos run -p android --ap android-19 -j 9
+cocos run -p android --ap android-21 -j 9
+cocos run -p android --ap android-21 -j 9
