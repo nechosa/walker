@@ -134,7 +134,6 @@ set(GAME_SRC
   Classes/Entity.cpp
   Classes/Player.cpp
   Classes/StageScene.cpp
-  Classes/StageScene1.cpp
   Classes/ParallaxNodeExtras.cpp
   Classes/ParallaxScrollNode.cpp
   Classes/ParallaxScrollOffset.cpp
@@ -150,7 +149,6 @@ set(GAME_HEADERS
   Classes/ContactListener.h
   Classes/Player.h
   Classes/StageScene.h
-  Classes/StageScene1.h
   Classes/ParallaxNodeExtras.h
   Classes/ParallaxScrollNode.h
   Classes/ParallaxScrollOffset.h
